@@ -175,8 +175,17 @@ const Row3 = (props: Props) => {
                     ))}
                 </FlexBetween>
             </Box>
-            <DashboardBox   gridArea="j"></DashboardBox>
-
+            
+            <Box color={palette.secondary[500]} style={{borderRadius: "1rem",boxShadow: "0.15rem 0.2rem 0.15rem 0.1rem rgb(0,0,0.8) ", zIndex: 4, position:"relative"}} gridArea="j">
+                    <BoxHeader title="Overall Summary and Explanation Data" sideText='+15%'/>
+                    <Box height="15px" margin="1.25rem 1rem 0.4rem 1rem" bgcolor={palette.primary[600]} borderRadius="1rem">
+                        <Box height="15px" bgcolor={palette.primary[800]} borderRadius="1rem" width="40%" >
+                        </Box>
+                    </Box>
+                    <Typography margin=" 0 1rem" variant="h6" >
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam aspernatur nemo, odio nihil dicta expedita. Numquam dolore placeat eos deleniti id recusandae assumenda sunt maiores laudantium iste! Rerum, dolorem asperiores?
+                    </Typography>
+            </Box>
         </>
     )
 }
